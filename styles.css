@@ -1,7 +1,7 @@
 body {
 	background-color: #e6ecf0;
 	margin: 0;
-	font-family: Helvatica;
+	font-family: 'Lato', sans-serif;
 }
 
 #navbar {
@@ -55,17 +55,23 @@ a {
 
 input {
 	border-radius: 18px;
-    padding: 8px;
+    padding: 8px 33px 8px 8px;
     font-size: 12px;
     border: 1px solid #e6ecf0;
     background-color: #f5f8fa;
     color: #14171a;
     width: 221px;
+    outline: none;
 	}
+
+input:focus {
+	border: 2px solid #3B94D9;
+}
 
 #search i {
 	position: absolute;
     right: 11px;
+    cursor: pointer;
 }
 
 .container {
@@ -94,6 +100,13 @@ input {
 	background-image: url('owce.jpg');
 	height: 320px;
     background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+	#image {
+		height: 400px;
+	}
 }
 
 #statsbar {
@@ -147,4 +160,20 @@ input {
 .stats li.active span,
 .stats li:hover span {
 	color: #1c94e0;
+}
+
+button {
+	align-self: center;
+    color: #3B94D9;
+    background: none;
+    border: 1px solid #3B94D9;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 19px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+	background-color: #EBF4FB;
 }
