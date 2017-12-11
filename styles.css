@@ -4,6 +4,11 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #3B94D9;
+}
+
 #navbar {
 	background-color: #fff;
 	height: 46px;
@@ -23,8 +28,7 @@ body {
 	align-items: stretch;
 }
 
-a {
-	text-decoration: none;
+header a {
 	color: #66757f;
 }
 
@@ -176,4 +180,52 @@ button {
 
 button:hover {
 	background-color: #EBF4FB;
+}
+
+#content {
+	display: flex;
+}
+
+#personal h1 {
+	margin-top: 45px;
+	margin-bottom: 0px;
+}
+
+#personal h1 a {
+    color: #000;
+    font-weight: bold;
+}
+
+#personal a:hover {
+    text-decoration: underline;
+}
+
+#about {
+	margin-top: 12px;
+}
+
+#info {
+	list-style: none;
+	padding: 0px;
+	color: #657786;
+}
+
+#info i {
+    width: 12px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+#info li {
+    margin-bottom: 10px;
+}
+
+#pictures i {
+    width: 12px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+#screen-name a {
+	color: #657786;
 }
