@@ -186,6 +186,10 @@ button:hover {
 	display: flex;
 }
 
+#personal {
+	width: 290px;
+}
+
 #personal h1 {
 	margin-top: 45px;
 	margin-bottom: 0px;
@@ -226,6 +230,76 @@ button:hover {
     margin-right: 6px;
 }
 
-#screen-name a {
+.screen-name a {
 	color: #657786;
+}
+
+
+#images {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 8px;
+}
+
+#images img {
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+#wall {
+	width: 590px;
+	background-color: #fff;
+	margin: 10px;
+}
+
+#wall-nav {
+	list-style: none;
+	display: flex;
+	font-size: 18px;
+    font-weight: bold;
+    padding: 13px 0;
+    border-bottom: 1px solid #e6ecf0;
+    margin: 0;
+}
+
+#wall-nav li {
+    padding: 0 15px;
+}
+
+#wall-nav a:hover {
+    text-decoration: underline;
+}
+
+#right-rail {
+	width: 290px;
+}
+
+.little-profile {
+	background-image: url('kaczki.jpg');
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-size: 113%;
+    background-position: -6px -10px;
+    margin-right: 12px;
+}
+
+.post {
+	padding: 9px 12px;
+	display: flex;
+}
+
+.post-top a {
+	color: #000;
+	font-weight: bold;
+}
+
+.post-top a .screen-name {
+	font-weight: normal;
+	color: #657786;
+}
+
+.post-top a:hover .post-author {
+	color: #1c94e0;
+	text-decoration: underline;
 }
